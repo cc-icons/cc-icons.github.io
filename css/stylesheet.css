@@ -622,6 +622,7 @@ background: #535e4d;
 {
 	padding-left:15px;
 	padding-right:10px;
+	letter-spacing:-1px;
 	display:inline!important;
 	width:auto!important;
 	font-family:Arial Black,Arial,sans-serif;
