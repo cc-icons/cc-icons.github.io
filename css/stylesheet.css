@@ -651,7 +651,7 @@ background: #535e4d;
 	color:#A3AE9D;
 	text-decoration:none;
 }
-.menuItems span a:hover;
+.menuItems span a:hover
 {
 	color:white;
 }
