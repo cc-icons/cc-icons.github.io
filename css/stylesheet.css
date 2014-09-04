@@ -309,6 +309,9 @@ h6,
 }
 p {
   margin: 0 0 10px;
+  font-size: 14px;
+  font-family:"Lato","Calibri",Helvetica,Arial,sans-serif;
+  font-weight:	400;
 }
 
 section {
