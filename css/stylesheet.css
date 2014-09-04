@@ -3,7 +3,6 @@ Slate Theme for GitHub Pages
 by Jason Costello, @jsncostello
 *******************************************************************************/
 
-@import url(pygment_trac.css);
 @import url('http://fonts.googleapis.com/css?family=Lato');
 
 /*******************************************************************************
@@ -17,6 +16,7 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  font-size:14px;
 }
 body {
   margin: 0;
