@@ -621,9 +621,9 @@ background: #535e4d;
 .webFont
 {
 	padding-left:15px;
-	padding-right:15px;
-	display:inline;
-	width:auto;
+	padding-right:10px;
+	display:inline!important;
+	width:auto!important;
 	font-family:Arial Black,Arial,sans-serif;
 }
 .menuBar
