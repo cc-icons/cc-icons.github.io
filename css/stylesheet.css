@@ -324,7 +324,7 @@ p {
   font-family: 'Lato'!important;
 }
 
-footer p, .inner p {
+footer p, #footer_wrap p {
   color: #f2f2f2;
   font-size:	10.5px;
   line-height:	7.88333px;
@@ -535,6 +535,7 @@ Full-Width Styles
   background: -ms-linear-gradient(top, #737e6d, #212121);
   background: -o-linear-gradient(top, #737e6d, #212121);
   background: linear-gradient(top, #737e6d, #212121);
+  height: 200px;
 }
 
 
@@ -562,7 +563,7 @@ Full-Width Styles
   position: absolute;
   width: 210px;
   z-index: 10;
-  bottom: -40px;
+  bottom: -52px;
   right: 0;
   height: 70px;
   background: url('../images/icon_download.png') no-repeat 0% 90%;
