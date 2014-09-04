@@ -617,6 +617,15 @@ background: #535e4d;
   background: -o-linear-gradient(top, #212121, #535e4d);
   background: linear-gradient(top, #212121, #535e4d);
 }
+
+.webFont
+{
+	padding-left:15px;
+	padding-right:15px;
+	display:inline;
+	width:auto;
+	font-family:Arial Black,Arial,sans-serif;
+}
 .menuBar
 {
 	color:white;
