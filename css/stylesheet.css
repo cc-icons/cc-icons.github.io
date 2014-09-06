@@ -619,14 +619,18 @@ background: #535e4d;
 
 .license a
 {
-  color:#737e6d;
+  color:LightSeaGreen;
 }
-
+.license a:hover
+{
+  color:DarkCyan;
+}
 .license ul
 {
   font-size: 85%;
   line-height: 1.5em;
   color:DimGray;
+  margin-bottom:10px;
 }
 .license ul li code
 {
@@ -635,6 +639,7 @@ background: #535e4d;
 .license ul ul
 {
   list-style:circle outside none;
+  margin-bottom:5px;
 }
 
 .webFont
