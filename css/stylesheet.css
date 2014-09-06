@@ -617,13 +617,24 @@ background: #535e4d;
   background: linear-gradient(top, #212121, #535e4d);
 }
 
+.license a
+{
+  color:#737e6d;
+}
+
 .license ul
 {
   font-size: 85%;
+  line-height: 1.5em;
+  color:DimGray;
 }
 .license ul li code
 {
   color:#acac14;
+}
+.license ul ul
+{
+  list-style:circle outside none;
 }
 
 .webFont
