@@ -104,7 +104,13 @@ figure {
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  height: 0;
+  background-color: #e8e8e8;
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #e3e3e3;
+  height: 1px;
+  margin-bottom: 5px;
 }
 pre {
   overflow: auto;
@@ -453,13 +459,6 @@ dl p {
   font-style: italic;
 }
 
-hr {
-  height: 1px;
-  margin-bottom: 5px;
-  border: none;
-  background: url('../images/bg_hr.png') repeat-x center;
-}
-
 table {
 
   text-align: left;
@@ -616,6 +615,15 @@ background: #535e4d;
   background: -ms-linear-gradient(top, #212121, #535e4d);
   background: -o-linear-gradient(top, #212121, #535e4d);
   background: linear-gradient(top, #212121, #535e4d);
+}
+
+.license ul
+{
+  font-size: 85%;
+}
+.license ul li code
+{
+  color:#acac14;
 }
 
 .webFont
