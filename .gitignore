@@ -1,0 +1,10 @@
+scratch/*
+*~
+*.log
+*.swp
+.DS_Store
+.htaccess
+.idea
+.less
+.md
+temp/
