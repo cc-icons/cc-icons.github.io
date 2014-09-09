@@ -327,7 +327,8 @@ p {
 footer p, #footer_wrap p {
   color: #f2f2f2;
   font-size:	10.5px;
-  line-height:	4px;
+  line-height:	16px;
+  margin:0px
 }
 
 a {
@@ -609,6 +610,54 @@ Full-Width Styles
   background: -ms-linear-gradient(top, #212121, #535e4d);
   background: -o-linear-gradient(top, #212121, #535e4d);
   background: linear-gradient(top, #212121, #535e4d);
+}
+
+.cc-icon-list a
+{
+  background: none repeat scroll 0 0 ivory;
+  color: DarkSlateGray;
+  font-size: 14px;
+  margin: 1px;
+  width: 200px;
+  display:block;
+  line-height:32px;
+  padding-left:10px;
+  max-height:32px;
+  text-decoration:none;
+  border-radius:5px;
+}
+
+.cc-icon-list a:hover
+{
+  background:DarkSlateGray;
+  color:ivory;
+}
+
+.cc-icon-list .cc-hover a:hover .cc {
+  font-size: 28px;
+  vertical-align: -6px;
+}
+
+.cc-icon-list .cc-hover a .cc {
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 0px;
+  text-align: right;
+  width: 32px;
+}
+.banners .cc-hover a .cc
+{
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.banners .cc-hover a:hover .cc
+{
+  margin-right: 27px;
+}
+.banners .cc-hover a:hover .cc-logo
+{
+  margin-right: 55px!important;
 }
 
 .install a
