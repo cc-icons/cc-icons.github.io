@@ -612,18 +612,42 @@ Full-Width Styles
   background: linear-gradient(top, #212121, #535e4d);
 }
 
-@media screen and (max-height: 780px) {
-  .cc-6,.cc-5
+@media screen and (max-height: 800px) {
+  .cc-6
     {
     display:none;
   }        
 }
-@media screen and (max-width: 800px) {
-  .cc-6,.cc-5
+@media screen and (max-height: 700px) {
+  .cc-5
     {
     display:none;
   }        
 }
+@media screen and (max-width: 900px) {
+  .cc-6
+    {
+    display:none;
+  }        
+}
+@media screen and (max-width: 750px) {
+  .cc-5,.menuItems span
+    {
+    display:none!important;
+  }      
+  .menuItems
+   {
+    width:auto!important;
+  }
+  
+}
+@media screen and (max-width: 500px) {
+  .icons h4 small
+    {
+    display:none;
+  }        
+}
+
 
 .iconwall
 {
@@ -668,7 +692,7 @@ Full-Width Styles
 }
 .cc-5
 {
-  font-size:200%;
+  font-size:12em;
 }
 .cc-6
 {
@@ -683,7 +707,7 @@ header.icons
 {
   height:50%!important;
   padding-top:50px;
-  min-height:250px;
+  min-height:350px;
  color:white;
 
 }
