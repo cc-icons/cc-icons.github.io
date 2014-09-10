@@ -612,6 +612,106 @@ Full-Width Styles
   background: linear-gradient(top, #212121, #535e4d);
 }
 
+@media screen and (max-height: 780px) {
+  .cc-6,.cc-5
+    {
+    display:none;
+  }        
+}
+@media screen and (max-width: 800px) {
+  .cc-6,.cc-5
+    {
+    display:none;
+  }        
+}
+
+.iconwall
+{
+  background: ivory;
+  background: -moz-linear-gradient(top, ivory, white);
+  background: -webkit-linear-gradient(top, ivory, white);
+  background: -ms-linear-gradient(top, ivory, white);
+  background: -o-linear-gradient(top, ivory, white);
+  background: linear-gradient(top, ivory, white);
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 4px;
+  box-shadow:0 1px 1px rgba(0, 0, 0, 0.05) inset;
+  display:block;
+  padding:20px;
+  margin-top:10px;
+  margin-bottom:15px;
+}
+
+.iconwall div
+{
+  line-height:1.5em;
+  font-size:25px;
+}
+
+.iconwall div i
+{
+  font-size:32px;
+  
+}
+
+.cc-2
+{
+  font-size:2em;
+}
+.cc-3
+{
+  font-size:3em;
+}
+.cc-4
+{
+  font-size:6em;
+}
+.cc-5
+{
+  font-size:200%;
+}
+.cc-6
+{
+  font-size:1400%;
+}/*
+.icons .cc{
+  color:white;
+
+}*/
+
+header.icons
+{
+  height:50%!important;
+  padding-top:50px;
+  min-height:250px;
+ color:white;
+
+}
+
+.icons div
+{
+  margin:auto;
+  max-width:800px;
+  display:relative;
+  height:100%;
+
+}
+.icons h4
+{
+  font-size: 28px;
+  margin-top:35px;
+  text-shadow: 0px 0px 2px black;
+}
+.icons h4 small
+{
+  font-size:50%;
+  /*text-shadow: 0px 0px 1px rgba(255,255,255,1);*/
+  color:DimGray;
+}
+
+
+
+
 .cc-icon-list a
 {
   background: none repeat scroll 0 0 ivory;
@@ -647,17 +747,28 @@ Full-Width Styles
 }
 .banners .cc-hover a .cc
 {
-  margin-left:10px;
-  margin-right:10px;
+  width:auto;
+  padding-left:8px;
 }
 
 .banners .cc-hover a:hover .cc
 {
-  margin-right: 27px;
+  width:auto;
 }
 .banners .cc-hover a:hover .cc-logo
 {
-  margin-right: 55px!important;
+  width:auto!important;
+}
+
+.cc-numbers a
+{
+  text-align:center;
+}
+.cc-numbers a .cc
+{
+  padding:0px;
+  margin:0px;
+  width:auto!important;
 }
 
 .install a
