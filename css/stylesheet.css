@@ -557,7 +557,7 @@ Full-Width Styles
   position: absolute;
   width: 210px;
   z-index: 10;
-  bottom: -52px;
+  bottom: -50px;
   right: 0;
   height: 70px;
   background: url('../images/icon_download.png') no-repeat 0% 90%;
@@ -696,7 +696,7 @@ Full-Width Styles
 }
 .cc-6
 {
-  font-size:1400%;
+  font-size:171px;
 }/*
 .icons .cc{
   color:white;
@@ -734,8 +734,6 @@ header.icons
 }
 
 
-
-
 .cc-icon-list a
 {
   background: none repeat scroll 0 0 ivory;
@@ -744,9 +742,9 @@ header.icons
   margin: 1px;
   width: 200px;
   display:block;
-  line-height:32px;
+  line-height:38px;
   padding-left:10px;
-  max-height:32px;
+  max-height:33px;
   text-decoration:none;
   border-radius:5px;
 }
@@ -772,7 +770,7 @@ header.icons
 .banners .cc-hover a .cc
 {
   width:auto;
-  padding-left:8px;
+  padding-left:0px;
 }
 
 .banners .cc-hover a:hover .cc
@@ -863,6 +861,14 @@ nt na a s
 	display:inline!important;
 	width:auto!important;
 	font-family:Arial Black,Arial,sans-serif;
+  float:left;
+}
+
+.webFont .cc
+{
+  font-size:30px;
+  line-height:8px;
+  padding-right:2px;
 }
 .menuBar
 {
@@ -886,7 +892,7 @@ nt na a s
 
 .menuItems span
 {
-	width:90px;
+	width:88px;
 	text-align:center;
 	padding-top:13px;
 	display:inline-block;
@@ -923,6 +929,7 @@ nt na a s
 table.project-header 
 {
 	width:100%;
+  margin-top: 25px;
 }
 
 .row {
